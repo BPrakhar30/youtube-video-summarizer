@@ -10,7 +10,7 @@
 # Build files
 /frontend/dist
 
-.vite
+.vite/
 
 # System files
 .DS_Store
