@@ -10,9 +10,7 @@
 # Build files
 /frontend/dist
 
-# IDE specific files
-.vscode/
-.idea/
+.vite
 
 # System files
 .DS_Store
