@@ -1,64 +1,57 @@
 # YouTube Video Summarizer
 
-A web application that generates concise summaries of YouTube videos using OpenAI's GPT model.
+[![React](https://img.shields.io/badge/React-Vite-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![Flask](https://img.shields.io/badge/Flask-API-000?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT-412991?logo=openai&logoColor=white)](https://platform.openai.com/)
+
+Turn long YouTube videos into structured summaries — title, bullet points, and conclusion — using transcript extraction and GPT.
 
 ## Features
-- YouTube video transcript extraction
-- AI-powered summary generation
-- Clean and responsive user interface
-- Section-based summary format (Title, Summary Points, Conclusion)
 
-## Tech Stack
-- Frontend: React.js with Vite
-- Backend: Python Flask
-- AI: OpenAI GPT API
-- Styling: CSS with custom animations
+- YouTube transcript extraction
+- GPT-powered structured summaries
+- Responsive React UI with section-based output
+- Bring-your-own OpenAI API key
+
+## Tech stack
+
+| Layer | Stack |
+|-------|-------|
+| Frontend | React, Vite, CSS |
+| Backend | Python, Flask |
+| AI | OpenAI GPT API |
 
 ## Setup
-### 1. Clone the repository 
 
 ```bash
-git clone https://github.com/bprakhar30/youtube-video-summarizer.git
+git clone https://github.com/BPrakhar30/youtube-video-summarizer.git
+cd youtube-video-summarizer
 ```
 
-### 2. Install frontend dependencies
-
-```bash
-cd frontend
-npm install
-```
-
-### 3. Install backend dependencies
+**Backend**
 
 ```bash
 cd backend
 python -m venv venv
-venv\Scripts\activate (windows)
+venv\Scripts\activate   # Windows
 pip install -r requirements.txt
-```
-
-### 4. Run the application
-
-#### Backend:
-```bash
-cd backend
 python run.py
 ```
 
-#### Frontend:
+**Frontend**
+
 ```bash
 cd frontend
+npm install
 npm run dev
 ```
 
 ## Usage
-1. Enter your OpenAI API key in the settings
-2. Enter a YouTube video URL
-3. Click "Generate Summary"
-4. View the formatted summary with title, key points, and conclusion
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+1. Enter your OpenAI API key in settings
+2. Paste a YouTube URL
+3. Click **Generate Summary**
 
-## License
-This project is not currently licensed. If you would like to contribute, feel free to open an issue to discuss licensing options.
+## Topics
+
+`youtube` `summarization` `openai` `llm` `react` `flask` `transcript`
