@@ -4,7 +4,7 @@
 [![Flask](https://img.shields.io/badge/Flask-API-000?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT-412991?logo=openai&logoColor=white)](https://platform.openai.com/)
 
-Turn long YouTube videos into structured summaries — title, bullet points, and conclusion — using transcript extraction and GPT.
+Turn long YouTube videos into structured summaries  -  title, bullet points, and conclusion  -  using transcript extraction and GPT.
 
 ## Features
 
